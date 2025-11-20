@@ -1,3 +1,4 @@
+// 1.Conversion Work
 let num = "AB"
 
 // console.log(num);
@@ -28,19 +29,21 @@ let boolIsloggedIn = Boolean(isloggedIn)
  "Abu" => true
  */
 
- let stringNumber = 55
 
- let stringValue = String(stringNumber)
- console.log(stringValue);
+//  let stringNumber = 55
+
+//  let stringValue = String(stringNumber)
+//  console.log(stringValue);
 //  console.log(typeof (stringValue));
 
 
 
- let obNumber = null
+//  let obNumber = null
 
- let obValue = Object(obNumber)
- console.log(obValue);
- console.log(typeof (obValue));
+//  let obValue = Object(obNumber)
+//  console.log(obValue);
+//  console.log(typeof (obValue));
+
 
  /**
   After Applying Object Conversation Operation
@@ -48,8 +51,38 @@ let boolIsloggedIn = Boolean(isloggedIn)
   "Abu" => [String: 'Abu']
   true => [Boolean: true], false => [Boolean: false]
   Undefined/Null => {}
-
   */
+
+
+// 2.Operation Work
+    // Apply +,- in Number
+    let value = 3
+    let negvalue = +value
+    // console.log(negvalue);
+    
+    /** Some Mathematics Operation
+    console.log(2+2);
+    console.log(2-2);
+    console.log(2*2);
+    console.log(2**5);
+    console.log(2/2);
+    console.log(2%100); **/
+     
+    
+    // + Two String
+    let str1 = "Abdul"
+    let str2 = " Basit"
+    let str3 = (str1 + str2)
+    console.log(str3);
+    
+    // Complex Situtation Operation
+    console.log(1+2);
+    console.log("1"+2);
+    console.log(1+"2");
+    console.log(1+3+"2");
+    console.log("6"+2+1);
+
+    
  
  
 
