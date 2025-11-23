@@ -73,15 +73,31 @@ let boolIsloggedIn = Boolean(isloggedIn)
     let str1 = "Abdul"
     let str2 = " Basit"
     let str3 = (str1 + str2)
-    console.log(str3);
+    // console.log(str3);
     
     // Complex Situtation Operation
-    console.log(1+2);
-    console.log("1"+2);
-    console.log(1+"2");
-    console.log(1+3+"2");
-    console.log("6"+2+1);
+    // console.log(1+2);c
+    // console.log("1"+2);
+    // console.log(1+"2");
+    // console.log(1+3+"2");
+    // console.log("6"+2+1);
 
+    let gameCounter = 200
+    gameCounter++;
+    console.log(gameCounter);
+    
+    // POSTFIX INCREMENT
+    let x = 3
+    const y = x++
+    console.log(y);
+    
+
+    // PREFIX INCREMENT
+    let x2 = 5
+    const y2 = ++x2
+    console.log(y2);
+    
+    
     
  
  
