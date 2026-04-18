@@ -1,6 +1,6 @@
 // Two way declared Object in Javascript
 
-// 1.Object constructor ===>> every time stand
+// 1.Object constructor ===>> every time singleton
 
 // 2.object literals
 
