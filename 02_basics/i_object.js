@@ -3,7 +3,6 @@
 // 1.Object constructor ===>> every time singleton
 
 // 2.object literals
-
 //add symbols in object key
 const sym = Symbol('keyValue1')
 const userDetails = {
@@ -33,8 +32,8 @@ console.log(userDetails.email)
 
 // you can freeze the object
 
-// Object.freeze(userDetails)
 
+// Object.freeze(userDetails)
 userDetails.email = 'basit12@chatgpt.com'  // can't change object is freeze
 console.log(userDetails['email'])
 

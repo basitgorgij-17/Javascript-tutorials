@@ -35,10 +35,10 @@ const studentDetails = {
     }
 }
 
-console.log(studentDetails.fullName)
-console.log(studentDetails.field.department)
-console.log(studentDetails.field.subject.course2)
-console.log(studentDetails.field.subject.marks.CSSMark)
+// console.log(studentDetails.fullName)
+// console.log(studentDetails.field.department)
+// console.log(studentDetails.field.subject.course2)
+// console.log(studentDetails.field.subject.marks.CSSMark)
 
 
 // Two way marge object in javascript
@@ -52,7 +52,7 @@ const obj3 = {e: 5, f: 6}
 
 // 2.spread Operator
 const obj = {...obj1,...obj2,...obj3}
-console.log(obj)
+// console.log(obj)
 
 // Convert key and value into Array
 const tinderUserinfo = {
@@ -63,10 +63,37 @@ const tinderUserinfo = {
 }
 
 // object keys convert into array
-console.log(Object.keys(tinderUserinfo));
+// console.log(Object.keys(tinderUserinfo));
+
 // object values convert into array 
-console.log(Object.values(tinderUserinfo));
+// console.log(Object.values(tinderUserinfo));
+
 // object key and value pair convert into array
-console.log(Object.entries(tinderUserinfo));
+// console.log(Object.entries(tinderUserinfo));
+
 // check value is exist in object
-console.log(tinderUserinfo.hasOwnProperty("isLoggedIn"))
+// console.log(tinderUserinfo.hasOwnProperty("isLoggedIn"))
+
+
+// Understand Object de-structure
+
+const smitDetails = {
+    batch: 18,
+    course: 'Web n App',
+    courseInstructor: 'Inno Sufiyan',
+    campus: 'Numaish'
+}
+
+// Simple way access Object value
+// console.log(smitDetails.courseInstructor)
+
+// De-Structure way access Object value
+const {courseInstructor: instructor} = smitDetails
+console.log(instructor)
+
+
+// React Method
+// const nav = (institute) =>{
+
+// }
+// nav (institute = 'SMIT')
